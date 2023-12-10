@@ -1,0 +1,129 @@
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9px;
+    text-align: center;
+}
+
+h2,
+h4,
+h5 {
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+/*Header Section*/
+.header {
+    width: 100%;
+    height: 69px;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid seashell;
+}
+
+#logo  {
+    float: left;
+    padding-top: 4px;
+    padding-left: 10px;
+    height: 50px;
+}
+
+a {
+    text-decoration: underline;
+    display: inline;
+    color: seashell;
+    float: right;
+    margin: 5px 5px;
+}
+
+.label li {
+    display: inline;
+}
+
+/*Mission Container*/
+.mission-container {
+    background-image: url("/Users/sachikoponpon/Code/Flexbox.Tea Cozy.Platform Project/pictures/img-mission-background.jpg");
+    height: 700px;
+    max-width: 1200px;
+    margin: 70px auto 70px auto;
+    display: flex;
+}
+
+.mission-text {
+    margin: auto;
+    background-color: black;
+    width:100%;
+}
+
+/*Tea Section*/
+.tea-container {
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+    padding-bottom: 50px;
+
+}
+
+.tea img {
+    width: 300px;
+    height: 200px;
+    padding: 10px 10px;
+}
+
+.tea figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#locations {
+    background-image: url("/Users/sachikoponpon/Code/Flexbox.Tea Cozy.Platform Project/pictures/img-locations-background.jpg");
+    height: 500px;
+    max-width: 1200px;
+    padding-top: 40px;
+    margin: 70px auto 70px auto;
+}
+
+
+* .box-container {
+    
+    width: 1200px;
+    margin: auto;
+    display: flex; 
+    text-align: center;
+    justify-content: center;
+   
+}
+
+* .box {
+    opacity: 1.0;
+    margin: auto 40px;
+    background-color: black;
+    display: flex;
+    flex-basis: 250px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+.contact {
+    text-align: center;
+    height: 200px;
+}
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
